@@ -1,3 +1,4 @@
+/*codigo */
 body{
 	margin:0;
 	padding:0;
@@ -8,18 +9,24 @@ nav ul li a{
 	color:white;
 	cursor: pointer;
 	margin-right: 20px;
+
 }
 .lista{
 	list-style:none;
-	border-right: solid 1px black;
+	border-right: 1px solid black;
 	padding: 15px;
+	width: 100%;
+    text-align: center;
+
 }
 nav ul{
 	height: 51px;
     margin-top: 0px;
+
 }
 #nav{
 	background-color: #db7878;
+	justify-content: center;
 	
 }
 li:hover{
