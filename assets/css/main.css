@@ -33,3 +33,32 @@ li:hover{
 	background-color:#E8048A;
 
 }
+#segundo{
+	background-color: #302d2d;
+}
+#segundo i{
+	color: white;
+	font-size: 25px;
+	cursor: pointer;
+}
+.menu.flex-container{
+	padding-left: 18px;
+}
+.general{
+	border-bottom: 1px solid;
+	width: 100%;
+}
+.texto{
+	color: white;
+    font-weight: bold;
+    padding-left: 19px;
+    height: 26px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.texto:hover{
+	text-decoration: underline;
+}
+.oculto{
+	display: none;
+}

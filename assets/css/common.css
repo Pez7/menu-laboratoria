@@ -1,7 +1,6 @@
 .flex-container{
 	display: -webkit-flex;
     display: flex;
-    -webkit-justify-content: flex-start;
     justify-content: space-between;
 }
 /*Este codigo borra los valores por defecto de los navegadores, lo encontré en google http://meyerweb.com/eric/tools/css/reset/*/
