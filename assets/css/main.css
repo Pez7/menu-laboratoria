@@ -44,17 +44,19 @@ li:hover{
 .menu.flex-container{
 	padding-left: 18px;
 }
-.general{
-	border-bottom: 1px solid;
+.general{	
+	display:none;
 	width: 100%;
 }
 .texto{
+	font-family: 'Oswald', sans-serif;
 	color: white;
     font-weight: bold;
     padding-left: 19px;
     height: 26px;
     margin-top: 12px;
     cursor: pointer;
+    border-bottom: 1px solid;
 }
 .texto:hover{
 	text-decoration: underline;

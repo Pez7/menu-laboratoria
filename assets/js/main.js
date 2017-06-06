@@ -1,7 +1,9 @@
-var barra = document.getElementById("barra")
-
-
+var barra = document.getElementById("barra");
+/*
 barra.addEventListener("click",function(){
+
+	
+	var seg = document.getElementById("segundo");
 	var lista2 = document.getElementsByClassName("lista2")[0];
 	var uno = document.createElement("div");
 		uno.setAttribute("class","general");
@@ -62,5 +64,10 @@ barra.addEventListener("click",function(){
 		parr6.appendChild(cont);
 		seis.appendChild(parr6);
 		lista2.appendChild(seis);
+});*/
+
+barra.addEventListener("click",function(){
+	document.getElementById("hidden").classList.remove("general");
 
 })
+
