@@ -3,6 +3,6 @@
 		display: none;
 	}
 	.oculto{
-		display: flex;
+		display: block;
 	}
 }
