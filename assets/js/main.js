@@ -1,5 +1,6 @@
 var barra = document.getElementById("barra");
 /*
+Este codigo es para agregar desde DOM los elementos
 barra.addEventListener("click",function(){
 
 	
