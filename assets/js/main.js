@@ -68,7 +68,7 @@ barra.addEventListener("click",function(){
 });*/
 
 barra.addEventListener("click",function(){
-	document.getElementById("hidden").classList.remove("general");
+	document.getElementById("hidden").classList.toggle("general");
 
 })
 
